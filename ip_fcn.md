@@ -1,1 +1,0 @@
-## Fast Image Processing with Fully-Convolutional Networks

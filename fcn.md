@@ -11,7 +11,7 @@ Pre- and post-processing are used in former methods.
 
 1. Inherent tension between semantics and location: **what** (global) and **where** (local). Deep feature hierarchies encode location and semantics in a nonlinear local-to-global pyramid.
 
-## Related work
+## Related Work
 
 Success of deep nets for image classification and transfer learning.
 
@@ -26,6 +26,8 @@ Transform fully connected layers into convolution layers.
 Upsampling: transposed convolution.
 
 Optimization: SGD with momentum.
+
+Code: http://fcn.berkeleyvision.org
 
 Fine-tuning
 

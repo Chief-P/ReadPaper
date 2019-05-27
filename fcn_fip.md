@@ -1,0 +1,51 @@
+# Fast Image Processing with Fully-Convolutional Networks
+
+arXiv \[cv.CV\] 2017, Qifeng Chen, Jia Xu, et al.
+
+## Background
+
+A variety of advanced operators have been proposed.
+
+Acceleration demands significant expertise and may not generalize across operators.
+
+One general approach: downsample-evaluate-upsample. Drawbacks: some operators work slow even at low resolution; high-frequency content of the image may not be modeled properly.
+
+## Related Work
+
+Like downsample-evaluate-upsample, downsampling is adopted in their method under the same assumption of preserved spatial layout.
+
+Other work considers system infrastructure and programming language.
+
+Closest works include Xu [75], Liu [51], Yan [77].
+
+Xu used deep nets to approximate a variety of edge-preserving filers.
+Comments: not end-to-end, restricted to edge-preserving smoothing, limited performance.
+
+Liu combined a convolutional network and a set of recurrent networks to approximate a variety of filters.
+Comments: not fast or good enough.
+
+Yan also applied deep nets to image adjustment. The network has a receptive field of a single pixel. The contextual information is only provided by hand-crafted input features.
+Comments: spatial context relies on extraneous preprocessing.
+
+## Solution
+
+The trained network operates at **full** resolution and runs in constant time.
+
+The FCN is trained on input-output pairs that demonstrate the operator's action.
+
+All operators are apprximated by the same model.
+
+## Result
+
+Dataset: MIT-Adobe (generalizable)
+
+Evaluations (on 10 advanced image processing operators):
+* Approximation accuracy (PSNR, DSSIM)
+* Runtime (fastest)
+* Compactness (Memory footprint)
+
+## TODO
+* Acceleration of bilateral filter.
+* Variational methods and other operators.
+* Why the model generalize across operators and datasets?
+* Why PSNR and DSSIM can measure accuracy?
