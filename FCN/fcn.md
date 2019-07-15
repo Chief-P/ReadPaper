@@ -21,6 +21,8 @@ Success of deep nets for image classification and transfer learning.
 
 ## Solution
 
+Fine-tuning
+
 Transform fully connected layers into convolution layers.
 
 Upsampling: transposed convolution.
@@ -28,8 +30,6 @@ Upsampling: transposed convolution.
 Optimization: SGD with momentum.
 
 Code: http://fcn.berkeleyvision.org
-
-Fine-tuning
 
 ## Result
 

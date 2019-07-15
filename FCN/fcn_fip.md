@@ -45,7 +45,13 @@ Evaluations (on 10 advanced image processing operators):
 * Compactness (Memory footprint)
 
 ## TODO
-* Acceleration of bilateral filter.
+* Learn the process of acceleration of bilateral filter.
 * Variational methods and other operators.
 * Why the model generalize across operators and datasets?
-* Why PSNR and DSSIM can measure accuracy?
+* PSNR and DSSIM?
+
+  $MSE=\frac{1}{mn}\sum_{i=0}^{m-1}\sum_{j=0}^{n-1}[I(i,j)-K(i,j)]^2$, measures distance between two images.
+
+  $PSNR=10\cdot \log_{10}(\frac{MAX_I^2}{MSE})$
+
+  $DSSIM(x,y)=\frac{1-SSIM(x,y)}{2}$, structual dissimilarity, does not constitute a distance metric.

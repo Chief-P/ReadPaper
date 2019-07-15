@@ -4,4 +4,4 @@
 
 5/24 FCN-Fast Image Processing
 
-5/27 DeCAF, Visualization of CNNs
+6/1 DeCAF, Visualization of CNNs
