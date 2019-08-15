@@ -11,3 +11,7 @@
 07/15 Color-based Methods
 
 07/17 LIME, DeHz
+
+07/24 Vision and the Atmosphere
+
+08/11 RPCA, Fast PCP
