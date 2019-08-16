@@ -15,3 +15,9 @@
 07/24 Vision and the Atmosphere
 
 08/11 RPCA, Fast PCP
+
+08/14 GCN
+
+08/15 Attention
+
+08/16 Attention
