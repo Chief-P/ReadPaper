@@ -10,4 +10,12 @@ They can be used to improve interpretability of neural networks.
 
 They help overcome some challenges with RNNs.
 
-## 
+## Taxonomy
+
+## Architectures
+
+Encoder-decoder
+
+Memory networks
+
+Networks without RNNs
