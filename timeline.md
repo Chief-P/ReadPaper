@@ -1,8 +1,10 @@
 # Timeline
 
+## 2019
+
 05/23 FCN
 
-05/24 FCN-Fast Image Processing
+05/24 FCN for Fast Image Processing
 
 06/01 DeCAF, Visualization of CNNs
 
@@ -31,3 +33,7 @@
 10/09 Neural Cache
 
 10/15 View Synthesis
+
+## 2020
+
+04/04 semantic-parsing/text2sql
