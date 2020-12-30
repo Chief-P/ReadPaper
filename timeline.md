@@ -4,19 +4,19 @@
 
 05/23 FCN
 
-05/24 FCN for Fast Image Processing
+05/24 FCN for fast image processing
 
-06/01 DeCAF, Visualization of CNNs
+06/01 DeCAF, visualization of CNNs
 
-07/11 Reviews on Gesture Recognition
+07/11 reviews on gesture recognition
 
-07/15 Color-based Methods
+07/15 color-based methods
 
 07/17 LIME, DeHz
 
-07/24 Vision and the Atmosphere
+07/24 vision and the atmosphere
 
-08/11 RPCA, Fast PCP
+08/11 RPCA, fast PCP
 
 08/14 GCN
 
@@ -32,8 +32,10 @@
 
 10/09 Neural Cache
 
-10/15 View Synthesis
+10/15 view synthesis
 
 ## 2020
 
-04/04 semantic-parsing/text2sql
+04/04 semantic parsing
+
+12/30 reactivate this repo
